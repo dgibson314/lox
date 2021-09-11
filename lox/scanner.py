@@ -1,10 +1,11 @@
 class Scanner:
+    start = 0
+    current = 0
+    line = 1
+    tokens = []
+
     def __init__(self, source):
         self.source = source
-        self.start = 0
-        self.current = 0
-        self.line = 1
-        self.tokens = []
 
     def scan_tokens():
         pass
